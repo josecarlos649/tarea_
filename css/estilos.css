@@ -1,0 +1,58 @@
+  .card-container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .card {
+    width: 70%;
+    height: 30rem;
+    background-image: linear-gradient(#450883, black);
+    border-radius: 20px;
+    display: flex;
+  }
+ .image-container{
+     width: 60%;
+     height: 100%;
+     background-image: linear-gradient(#450883, black));
+     border-radius: 20px;
+     overflow: hidden;
+    
+ }
+ .image-container img{
+     width: 70%;
+     height: 70%;
+     object-fit: cover;
+     margin-left: 6em;
+     margin-top: 4em;
+     
+ }
+.data-container{
+    width: 40%;
+    font-family: "Mansalva";
+    font-size: 21px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(#450883, black);
+    border-radius: 20px;
+}
+
+.button-container button{
+   font-size: 1.2em;
+   background-color: black;
+   border: 0px;
+   color: blanchedalmond;
+   padding: 0.5em 1em;
+   border-radius: 20px;
+   font-family: "Shadows Into Light";
+   box-shadow: inset 0 0 0 0 rgb(0, 0, 0);
+   transition: ease-out 0.3s;
+   font-size: 2rem;
+   outline: none;
+}
+.random-btn :hover{
+    box-shadow: inset 300px 0 0 0 rgb(0, 0, 0);
+}
+
